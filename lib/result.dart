@@ -9,19 +9,15 @@ class Result extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return (Scaffold(
-      appBar: AppBar(title: Text('Successful')),
+      appBar: AppBar(title: Text('Result'), backgroundColor: Colors.green,),
       body: Container(
         margin: EdgeInsets.all(10.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text(model.age, style: TextStyle(fontSize: 22)),
-            Text(model.sysbp, style: TextStyle(fontSize: 22)),
-            Text(model.disysbp, style: TextStyle(fontSize: 22)),
-            Text(model.pulserate, style: TextStyle(fontSize: 22)),
-            Text(model.temp, style: TextStyle(fontSize: 22)),
-            Text(model.oxylevel, style: TextStyle(fontSize: 22)),
-            Text(model.glucolevel, style: TextStyle(fontSize: 22)),
+            Text('You Are Healthy '
+                'Keep Doing Daily Exercise', style: TextStyle(fontSize: 22)),
+
           ],
         ),
       ),

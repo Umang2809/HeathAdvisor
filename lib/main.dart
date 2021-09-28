@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/advisor.dart';
 import 'package:validators/validators.dart';
 import 'package:untitled/testform.dart';
 import 'package:untitled/model.dart';
 import 'package:untitled/result.dart';
+import 'package:untitled/advisor.dart';
 
 void main() => runApp(MyApp());
 
@@ -52,7 +54,9 @@ class MyApp extends StatelessWidget {
                 child: FlatButton(
                   padding: EdgeInsets.all(0.0),
                   onPressed: () {
-                    debugPrint('button clicked');
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => Advisor() )
+                    );
                   },
                   child: Container(
 
