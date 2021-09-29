@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:untitled/advisor.dart';
 import 'package:validators/validators.dart';
 import 'package:untitled/testform.dart';
-import 'package:untitled/model.dart';
-import 'package:untitled/result.dart';
 import 'package:untitled/advisor.dart';
 
 void main() => runApp(MyApp());
@@ -21,8 +19,8 @@ class MyApp extends StatelessWidget {
         Center(
           child: Expanded(
                 child: Container(
-                  width: 180.0,
-                  height: 180.0,
+                  width: 140.0,
+                  height: 160.0,
                   decoration: BoxDecoration(
                     image: DecorationImage(
                       image: AssetImage('assets/monitor.png'),
@@ -44,8 +42,8 @@ class MyApp extends StatelessWidget {
         ),
             Expanded(
               child: Container(
-                width: 180.0,
-                height: 180.0,
+                width: 140.0,
+                height: 160.0,
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     image: AssetImage('assets/advisor.png'),
@@ -66,8 +64,8 @@ class MyApp extends StatelessWidget {
             ),
             Expanded(
               child: Container(
-                width: 180.0,
-                height: 180.0,
+                width: 120.0,
+                height: 120.0,
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     image: AssetImage('assets/doctor.png'),
@@ -86,8 +84,8 @@ class MyApp extends StatelessWidget {
             ),
             Expanded(
               child: Container(
-                width: 180.0,
-                height: 180.0,
+                width: 160.0,
+                height: 160.0,
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     image: AssetImage('assets/pharmacy.png'),
